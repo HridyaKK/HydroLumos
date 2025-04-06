@@ -181,7 +181,7 @@ Demo Image-
 ![Hydrolumos](https://github.com/user-attachments/assets/c150345c-d5be-41ff-81b2-448d1b90c6a9)
 
 ## Team Contributions
-- Arshiya Sulfikkar: [Specific contributions]
-- Hridya K K : [Specific contributions]
-- Hena Suvarnan: [Specific contributions]
+- Arshiya Sulfikkar: html code
+- Hridya K K : javascript code
+- Hena Suvarnan: css code
 
