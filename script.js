@@ -20,7 +20,6 @@
         <div id="lightDisplay" style="background-color: #ddd;"></div>
         <input id="brightnessControl" type="range" min="0" max="100" value="100">
     </div>
-
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var lightButton = document.getElementById('lightButton');
@@ -36,15 +35,14 @@
             // Function to toggle light on/off
             function toggleLight() {
                 if (lightDisplay.style.backgroundColor === 'yellow') {
-                    lightDisplay.style.backgroundColor = '#ddd';
-                    lightText.textContent = 'Light is OFF';
-                    lightButton.textContent = 'Turn ON light'; // Change button text
+                    lightDisplay.style.backgroundColor = '#ddd'; // Light off (light gray)
+                    lightButton.textContent = 'Turn On Light'; // Change button text to 'Turn On Light'
                 } else {
-                    lightDisplay.style.backgroundColor = 'yellow';
-                    lightText.textContent = 'Light is ON';
-                    lightButton.textContent = 'Turn OFF light'; // Change button text
+                    lightDisplay.style.backgroundColor = 'yellow'; // Light on (yellow)
+                    lightButton.textContent = 'Turn Off Light'; // Change button text to 'Turn Off Light'
                 }
             }
+            
 
             // Button click event
             lightButton.addEventListener('click', toggleLight);
