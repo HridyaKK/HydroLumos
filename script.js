@@ -6,14 +6,26 @@ document.addEventListener('DOMContentLoaded', function () {
     const brightnessControl = document.getElementById("brightnessControl");
     const modeToggle = document.getElementById("modeToggle");
 
+    // Add sound elements for turning the light on and off
+    const soundOn = document.getElementById('soundOn'); // Assuming the 'soundOn' sound is in the HTML
+    const soundOff = document.getElementById('soundOff'); // Assuming the 'soundOff' sound is in the HTML
+
     let lightOn = false;
     let darkMode = false;
 
     function toggleLight() {
         lightOn = !lightOn;
-        lightDisplay.style.backgroundColor = lightOn ? 'yellow' : '#ddd';
-        lightButton.textContent = lightOn ? 'Turn Off Light' : 'Turn On Light';
-        lightText.textContent = lightOn ? 'Light is ON' : 'Light is OFF';
+        if (lightOn) {
+            lightDisplay.style.backgroundColor = 'yellow';
+            lightText.textContent = 'Light is ON';
+            lightButton.textContent = 'Turn Off Light';
+            soundOn.play();  // Play the sound when turning the light on
+        } else {
+            lightDisplay.style.backgroundColor = '#ddd';
+            lightText.textContent = 'Light is OFF';
+            lightButton.textContent = 'Turn On Light';
+            soundOff.play();  // Play the sound when turning the light off
+        }
     }
 
     function toggleDarkMode() {
