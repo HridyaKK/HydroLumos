@@ -13,24 +13,24 @@
 </head>
 <body>
   <audio id="soundOn" src="light-on.mp3.wav" preload="auto"></audio>
-  <audio id="soundOff" src="light-off.mp3.wav" preload="auto"></audio>
+  <audio id="soundOff" src="light-on.mp3.wav" preload="auto"></audio>
 
   <header>
     <h1 id="productName">HYDROLUMOS</h1>
     <p>Innovative Saltwater & Magnet-Powered Emergency Lighting</p>
-    <button id="modeToggle">🌙 Dark Mode</button>
+    <button id="modeToggle">🌙 Dark Mode </button>
   </header>
 
   <nav>
     <ul>
-      <li><a href="#features">Features</a></li>  
-      <li><a href="#Contact Us">Contact Us</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
       <li><a href="#demo">Interactive Demo</a></li>
     </ul>
   </nav>
 
   <main>
-    <section id="features" class="boxed-section">
+    <section id="features" class="card-box">
       <h2>Key Features</h2>
       <ul>
         <li>Reliable illumination without traditional power sources</li>
@@ -39,23 +39,18 @@
         <li>Ideal for disaster relief and off-grid use</li>
       </ul>
     </section>
-    <section id="Contact Us" class="boxed-section">
-    <h2>Contact Us</h2>   
-    <ul>
-        <li>arshiyasulfikkar@gmail.com</li>
-        <li>hridyaa005@gmail.com</li>
-        <li>henasuvarnan@gmail.com</li>
-        <li>angelaelsajohn@gmail.com</li>
-    </ul>
+
+    <section id="testimonials" class="card-box">
+      <h2>User Testimonials</h2>
+      <blockquote>
+        <p>"Hydrolumos provided us with light during the hurricane when nothing else worked." - Jane D.</p>
+      </blockquote>
+      <blockquote>
+        <p>"An essential tool for our camping trips. Highly recommend!" - Mark S.</p>
+      </blockquote>
     </section>
 
-    
-</section>
-
-    
-    
-
-    <section id="demo" class="boxed-section">
+    <section id="demo" class="card-box">
       <h2>Interactive Demo</h2>
       <button id="lightButton">Turn ON light</button>
       <p id="lightText">Light is OFF</p>
