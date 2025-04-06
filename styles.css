@@ -106,8 +106,8 @@ main {
 
 /* Light mode section background */
 section {
-    background-color: #94d5f3; /* Light blue background for sections in light mode */
-    color: #000; /* Change text color to black */
+    background-color: #94d5f3; 
+    color: #000; 
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
@@ -118,7 +118,7 @@ section {
 /* Dark mode section background */
 body.dark-mode section {
     background-color: #2a3f4a; 
-    color: #f5f5f5; /* Keep text white in dark mode */
+    color: #f5f5f5; 
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); 
 }
 
