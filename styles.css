@@ -161,32 +161,16 @@ body.dark-mode nav ul li a:hover {
 
 body.dark-mode a {
     color: #58c6eb;
-    text-decoration: underline; 
+}
+
+/* Only email links will be underlined in dark mode */
+body.dark-mode a[href^="mailto:"] {
+    text-decoration: underline;
 }
 
 body.dark-mode a:hover {
     color: #87ceeb;
     text-decoration: underline;
-}
-
-
-body.dark-mode a[href^="mailto:"] {
-    color: #58c6eb; 
-    text-decoration: underline; 
-}
-
-body.dark-mode a[href^="mailto:"]:hover {
-    color: #87ceeb;
-    text-decoration: underline;
-}
-
-.card-box {
-    background-color: rgba(255, 255, 255, 0.8); 
-    color: #2e2e2e; 
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 body.dark-mode .card-box {
