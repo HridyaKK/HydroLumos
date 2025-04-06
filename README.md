@@ -27,7 +27,7 @@ For Software:
 - Tools used: Google Fonts,Vanilla CSS, External Stylesheet, Vanilla JavaScript, DOM APIs, Browser Event Listeners, CSS Animation Trigger
 
 For Hardware:
-Main components-
+Main components -
 **1. ⚡ Power Generation**
    
   **A. Saltwater Electrochemical Cell**
