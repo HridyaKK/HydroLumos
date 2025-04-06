@@ -14,10 +14,10 @@
 ### Project Description
 Hydrolumos is a saltwater-powered light with a backup magnetic induction system. It offers reliable, eco-friendly lighting using saltwater electrolysis and manual energy generation, perfect for emergencies, remote locations, and sustainable living.
 
-### The Problem (that doesn't exist)
+### The Problem 
 During a flood with rising water, no power and a dead phone, there's a need for a reliable, effortless light source.
 
-### The Solution (that nobody asked for)
+### The Solution 
 Hydrolumos provides a clean, battery-free lighting solution powered by saltwater, with a built-in magnetic induction backup system for manual power generation. It ensures dependable, eco-friendly light in any situation—ideal for remote communities, disaster relief, and sustainable living.
 
 ## Technical Details
