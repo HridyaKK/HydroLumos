@@ -7,9 +7,9 @@
 
 ### Team Members
 - Team Lead: Arshiya Sulfikkar - MITS
-- Member 2: Hridya K K - MITS
-- Member 3: Angela Elsa John - MITS
-- Member 4: Hena Suvarnan - MITS
+- Member 2: Angela Elsa John - MITS
+- Member 3: Hena Suvarnan - MITS
+- Member 4: Hridya K K - MITS
 
 ### Project Description
 Hydrolumos is a saltwater-powered light with a backup magnetic induction system. It offers reliable, eco-friendly lighting using saltwater electrolysis and manual energy generation, perfect for emergencies, remote locations, and sustainable living.
@@ -166,13 +166,6 @@ Tools required-
    
    Label maker or stickers – for labeling buttons or ports
 
-
-# Screenshots (Add at least 3)
-HTML CODE-
-
-CSS CODE-
-
-JAVASCRIPT CODE-
 
 
 For Hardware:
