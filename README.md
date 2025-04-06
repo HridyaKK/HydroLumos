@@ -24,12 +24,42 @@ Hydrolumos provides a clean, battery-free lighting solution powered by saltwater
 ### Technologies/Components Used
 For Software:
 - Languages used: html,css,javascript
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Tools used: Google Fonts,Vanilla CSS, External Stylesheet, Vanilla JavaScript, DOM APIs, Browser Event Listeners, CSS Animation Trigger
 
 For Hardware:
-- [List main components]
+Main components-
+1. ⚡ Power Generation
+A. Saltwater Electrochemical Cell
+Anode: Magnesium, Zinc, or Aluminum plate
+Cathode: Copper or Graphite plate
+Electrolyte: Saltwater (NaCl solution)
+Cell Container: Non-corrosive chamber to hold electrolyte and electrodes
+
+B. Magnetic Induction System (Backup Power)
+Coil: Copper wire (enameled)
+Magnet: Neodymium magnet
+Motion Mechanism: Hand crank, pendulum, or shaker system
+
+2. ⚙️ Energy Conditioning / Control
+DC-DC Boost Converter: Increases low voltage to LED-operating level
+Bridge Rectifier (optional): Converts AC from induction to DC
+Resistors: Controls current flow to prevent LED burnout
+Switch/Button: User-controlled ON/OFF operation
+Potentiometer / Slider: Brightness control (matches your web demo UI)
+
+3. 💡 Light Output
+LED(s): High-efficiency white LEDs (low voltage, low current)
+Light Diffuser / Lens: Improves light spread and appearance
+Mount / PCB: For clean LED mounting and heat management
+
+4. 🧱 Enclosure (Structure)
+Waterproof Casing: Durable, possibly 3D-printed or plastic mold
+Internal Layout: Isolated compartments for:
+Saltwater cell
+Electronics
+Induction mechanism
+Transparent Window: For LED visibility
+
 - [List specifications]
 - [List tools required]
 
