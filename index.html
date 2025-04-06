@@ -4,10 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hydrolumos</title>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    /* Your CSS remains unchanged */
-  </style>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS -->
 </head>
 <body>
   <header>
@@ -45,24 +42,11 @@
     </section>
   </main>
 
-  <script>
-    // Script to toggle light on and off
-    document.addEventListener('DOMContentLoaded', function() {
-      var lightButton = document.getElementById('lightButton');
-      var lightDisplay = document.getElementById('lightDisplay');
+  <footer>
+    &copy; 2025 Hydrolumos. All rights reserved.
+  </footer>
 
-      // Function to toggle light
-      function toggleLight() {
-        if (lightDisplay.style.backgroundColor === 'yellow') {
-          lightDisplay.style.backgroundColor = '#ddd'; // Reset color when off
-        } else {
-          lightDisplay.style.backgroundColor = 'yellow'; // Set to yellow when on
-        }
-      }
-
-      // Button click event to toggle light
-      lightButton.addEventListener('click', toggleLight);
-    });
-  </script>
+  <script src="script.js"></script> <!-- Link to your external JS -->
 </body>
 </html>
+
