@@ -106,10 +106,10 @@ main {
 
 /* Light mode section background */
 section {
-    background-color: #87e6ec; 
+    background-color: #94d5f3; 
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     margin-bottom: 2.5rem;
     transition: background-color 0.3s ease;
 }
@@ -118,7 +118,7 @@ section {
 body.dark-mode section {
     background-color: #2a3f4a; 
     color: #f5f5f5; 
-    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); 
 }
 
 button {
