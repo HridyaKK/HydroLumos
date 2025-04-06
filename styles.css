@@ -152,11 +152,11 @@ body.dark-mode nav ul {
 }
 
 body.dark-mode nav ul li a {
-    color: #f5f5f5; 
+    color: #add8e6; 
 }
 
 body.dark-mode nav ul li a:hover {
-    color: #e0fbfc; 
+    color: #87ceeb; 
 }
 
 .card-box {
@@ -170,13 +170,12 @@ body.dark-mode nav ul li a:hover {
 
 body.dark-mode .card-box {
     background-color: #2a3f4a;
-    color: #f5f5f5; /* Light gray text inside card boxes */
+    color: #f5f5f5; 
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
 }
 
 body.dark-mode #lightDisplay {
     background-color: #444;
-    box-shadow: 0 0 10px yellow;
 }
 
 

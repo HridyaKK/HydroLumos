@@ -28,9 +28,10 @@ For Software:
 
 For Hardware:
 Main components -
+
 **1. ⚡ Power Generation**
-   
-  **A. Saltwater Electrochemical Cell**
+
+   **A. Saltwater Electrochemical Cell**
 
    Anode: Magnesium, Zinc, or Aluminum plate
 
