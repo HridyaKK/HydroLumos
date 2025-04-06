@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to toggle light on/off
     function toggleLight() {
-        if (lightDisplay.style.backgroundColor === '#FFE65E') {
+        if (lightDisplay.style.backgroundColor === 'yellow') {
             lightDisplay.style.backgroundColor = '#ddd';
             lightText.textContent = 'Light is OFF';
         } else {
-            lightDisplay.style.backgroundColor = '#FFE65E';
+            lightDisplay.style.backgroundColor = '#FFE65';
             lightText.textContent = 'Light is ON';
         }
     }
