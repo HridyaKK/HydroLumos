@@ -131,20 +131,6 @@ body.dark-mode {
 
 body.dark-mode nav ul {
     background: #264653;
-}
 
-body.dark-mode nav ul li a {
-    color: #e0fbfc;
-}
-
-body.dark-mode header {
-    background: #222;
-}
-
-body.dark-mode footer {
-    background: #111;
-}
-
-body.dark-mode #lightDisplay {
-    background: #444;
-}
+::contentReference[oaicite:0]{index=0}
+ 
