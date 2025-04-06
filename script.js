@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const brightnessControl = document.getElementById("brightnessControl");
     const modeToggle = document.getElementById("modeToggle");
 
-    // Add sound elements for turning the light on and off
-    const soundOn = document.getElementById('soundOn'); // Assuming the 'soundOn' sound is in the HTML
-    const soundOff = document.getElementById('soundOff'); // Assuming the 'soundOff' sound is in the HTML
+    // sound when turning ligt on/off
+    const soundOn = document.getElementById('soundOn'); 
+    const soundOff = document.getElementById('soundOff'); 
 
     let lightOn = false;
     let darkMode = false;
@@ -19,15 +19,15 @@ document.addEventListener('DOMContentLoaded', function () {
             lightDisplay.style.backgroundColor = 'yellow';
             lightText.textContent = 'Light is ON';
             lightButton.textContent = 'Turn Off Light';
-            soundOn.play();  // Play the sound when turning the light on
+            soundOn.play();  
         } else {
             lightDisplay.style.backgroundColor = '#ddd';
             lightText.textContent = 'Light is OFF';
             lightButton.textContent = 'Turn On Light';
-            soundOff.play();  // Play the sound when turning the light off
+            soundOff.play();  
         }
     }
-
+    //theme
     function toggleDarkMode() {
         darkMode = !darkMode;
         document.body.classList.toggle("dark-mode", darkMode);
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     productName.addEventListener("click", () => {
         productName.style.animation = "none";
-        productName.offsetHeight; // Trigger reflow
+        productName.offsetHeight; 
         productName.style.animation = "glow 2s infinite ease-in-out";
     });
 
