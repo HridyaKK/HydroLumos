@@ -159,6 +159,15 @@ body.dark-mode nav ul li a:hover {
     color: #87ceeb; 
 }
 
+body.dark-mode a {
+    color: #add8e6; /* Light blue color for links in dark mode */
+    text-decoration: none; /* Optional: Remove underline for consistency */
+}
+
+body.dark-mode a:hover {
+    color: #87ceeb; /* Brighter blue for hover effect */
+}
+
 .card-box {
     background-color: rgba(255, 255, 255, 0.8); 
     color: #2e2e2e; 
