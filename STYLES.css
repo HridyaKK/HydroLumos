@@ -1,11 +1,36 @@
-#productName {
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+body {
     font-family: 'Manrope', sans-serif;
-    font-size: 3rem;
-    color: #e0fbfc;
-    text-shadow: 0 0 10px #94d2bd, 0 0 20px #0a9396, 0 0 30px #005f73;
-    animation: glow 2s infinite ease-in-out;
-    font-weight: 700;
-    letter-spacing: 2px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7f8;
+    color: #2e2e2e;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background: #005f73;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    background: #0a9396;
+    list-style: none;
+    padding: 0.75rem;
+    text-align: center;
     margin: 0;
 }
 
