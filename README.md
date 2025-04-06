@@ -41,130 +41,89 @@ Main components-
       Motion Mechanism: Hand crank, pendulum, or shaker system
 
 2. ⚙️ Energy Conditioning / Control
-DC-DC Boost Converter: Increases low voltage to LED-operating level
-Bridge Rectifier (optional): Converts AC from induction to DC
-Resistors: Controls current flow to prevent LED burnout
-Switch/Button: User-controlled ON/OFF operation
-Potentiometer / Slider: Brightness control (matches your web demo UI)
+   DC-DC Boost Converter: Increases low voltage to LED-operating level
+   Bridge Rectifier (optional): Converts AC from induction to DC
+   Resistors: Controls current flow to prevent LED burnout
+   Switch/Button: User-controlled ON/OFF operation
+   Potentiometer / Slider: Brightness control (matches your web demo UI)
 
 3. 💡 Light Output
-LED(s): High-efficiency white LEDs (low voltage, low current)
-Light Diffuser / Lens: Improves light spread and appearance
-Mount / PCB: For clean LED mounting and heat management
+   LED(s): High-efficiency white LEDs (low voltage, low current)
+   Light Diffuser / Lens: Improves light spread and appearance
+   Mount / PCB: For clean LED mounting and heat management
 
 4. 🧱 Enclosure (Structure)
-Waterproof Casing: Durable, possibly 3D-printed or plastic mold
-Internal Layout: Isolated compartments for:
-Saltwater cell
-Electronics
-Induction mechanism
-Transparent Window: For LED visibility
+   Waterproof Casing: Durable, possibly 3D-printed or plastic mold
+   Internal Layout: Isolated compartments for:
+   Saltwater cell
+   Electronics
+   Induction mechanism
+   Transparent Window: For LED visibility
 
 List specifications-
 ⚡ Power Generation
-Magnesium/Zinc Plate	~1mm thick, 50x50mm plate (high surface area for reaction)
-Copper/Graphite Plate	Same size as anode; good conductivity and corrosion resistance
-Saltwater	5–10% NaCl solution (by weight); room temperature preferred
-Copper Coil	Enameled wire, 28–32 AWG, 200–500 turns on ferrite/plastic core
-Neodymium Magnet	Disc or cylinder, N42 grade or higher, 10–20mm diameter, strong pull
+   Magnesium/Zinc Plate	~1mm thick, 50x50mm plate (high surface area for reaction)
+   Copper/Graphite Plate	Same size as anode; good conductivity and corrosion resistance
+   Saltwater	5–10% NaCl solution (by weight); room temperature preferred
+   Copper Coil	Enameled wire, 28–32 AWG, 200–500 turns on ferrite/plastic core
+   Neodymium Magnet	Disc or cylinder, N42 grade or higher, 10–20mm diameter, strong pull
 
 ⚙️ Energy Control & Regulation
-Component	Suggested Specification
-DC-DC Boost Converter	Input: 0.9–5V, Output: 3.3–5V, up to 600mA; e.g., MT3608 module
-Resistor	100–330Ω (depends on LED type and input voltage)
-Potentiometer / Slider	10kΩ linear (for smooth brightness control)
-Switch / Button	SPST (Single Pole Single Throw), 3–6V rating, toggle or momentary
-
+   Component	Suggested Specification
+   DC-DC Boost Converter	Input: 0.9–5V, Output: 3.3–5V, up to 600mA; e.g., MT3608 module
+   Resistor	100–330Ω (depends on LED type and input voltage)
+   Potentiometer / Slider	10kΩ linear (for smooth brightness control)
+   Switch / Button	SPST (Single Pole Single Throw), 3–6V rating, toggle or momentary
+   
 💡 Light Output
-Component	Suggested Specification
-White LED	3V forward voltage, 20mA current, 5mm or SMD type, 15,000–20,000 mcd
-Diffuser/Lens	Frosted acrylic or polycarbonate, matte finish, diameter: 20–50mm
+   Component	Suggested Specification
+   White LED	3V forward voltage, 20mA current, 5mm or SMD type, 15,000–20,000 mcd
+   Diffuser/Lens	Frosted acrylic or polycarbonate, matte finish, diameter: 20–50mm
 
 🧱 Structure & Housing
-Component	Suggested Specification
-Waterproof Enclosure	IP65 or higher, ABS/plastic casing, space for electrodes + circuits
+   Component	Suggested Specification
+   Waterproof Enclosure	IP65 or higher, ABS/plastic casing, space for electrodes + circuits
 
 Tools required-
 🔧 Basic Tools
-Screwdriver set – for enclosure assembly
-Wire cutters/strippers – for preparing electrical connections
-Needle-nose pliers – for bending or placing wires and components
-Utility knife / hobby knife – for trimming plastic, wires, or insulation
+   Screwdriver set – for enclosure assembly
+   Wire cutters/strippers – for preparing electrical connections
+   Needle-nose pliers – for bending or placing wires and components
+   Utility knife / hobby knife – for trimming plastic, wires, or insulation
 
 🔌 Electrical Tools
-Multimeter – to measure voltage, current, and resistance
-Soldering iron – for making permanent connections
-Solder wire – preferably lead-free (e.g., Sn99.3 Cu0.7)
-Helping hands / PCB holder – to stabilize components while soldering
-Heat shrink tubing or electrical tape – for insulating connections
+   Multimeter – to measure voltage, current, and resistance
+   Soldering iron – for making permanent connections
+   Solder wire – preferably lead-free (e.g., Sn99.3 Cu0.7)
+   Helping hands / PCB holder – to stabilize components while soldering
+   Heat shrink tubing or electrical tape – for insulating connections
 
 🧪 Prototyping & Assembly
-Breadboard (optional) – for prototyping before soldering
-Jumper wires – if testing on a breadboard
-Hot glue gun – to secure components inside the casing
-Drill + bits – for creating holes in the enclosure for wires/buttons
+   Breadboard (optional) – for prototyping before soldering
+   Jumper wires – if testing on a breadboard
+   Hot glue gun – to secure components inside the casing
+   Drill + bits – for creating holes in the enclosure for wires/buttons
 
 🖌️ Finishing Tools (Optional)
-3D printer – for custom casing or mounts
-Sandpaper/file – to smooth enclosure edges
-Label maker or stickers – for labeling buttons or ports
+   3D printer – for custom casing or mounts
+   Sandpaper/file – to smooth enclosure edges
+   Label maker or stickers – for labeling buttons or ports
 
-
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-Add caption explaining what this shows
 
-![Screenshot2](Add screenshot 2 here with proper name)
-Add caption explaining what this shows
 
-![Screenshot3](Add screenshot 3 here with proper name)
-Add caption explaining what this shows
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-Add caption explaining your workflow
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-Add caption explaining connections
-
-![Schematic](Add your schematic diagram here)
-Add caption explaining the schematic
 
 # Build Photos
-![Components](Add photo of your components here)
-List out all components shown
-
-![Build](Add photos of build process here)
-Explain the build steps
-
-![Final](Add photo of final product here)
-Explain the final build
-
-### Project Demo
-# Video
-[Add your demo video link here]
-Explain what the video demonstrates
-
-# Additional Demos
-[Add any extra demo materials/links]
+Demo Image-
+![Hydrolumos](https://github.com/user-attachments/assets/c150345c-d5be-41ff-81b2-448d1b90c6a9)
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
--
+- Arshiya Sulfikkar: [Specific contributions]
+- Hridya K K : [Specific contributions]
+- Hena Suvarnan: [Specific contributions]
+
