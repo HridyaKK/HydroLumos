@@ -133,4 +133,19 @@ body.dark-mode nav ul {
     background: #264653;
 }
 
+.card-box {
+    background-color: #d0f0f6;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Dark mode styling for the card boxes */
+body.dark-mode .card-box {
+    background-color: #2a3f4a;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+
  
