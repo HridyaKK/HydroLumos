@@ -52,12 +52,14 @@
       </ul>
     </section>
 
-    <section id="demo" class="card-box">
-      <h2>Interactive Demo</h2>
-      <button id="lightButton">Turn ON light</button>
-      <p id="lightText">Light is OFF</p>
-      <div id="lightDisplay"></div>
-      <input id="brightnessControl" type="range" min="0" max="100" value="100">
+    <section id="demo" class="card-box" style="display: flex; align-items: center; gap: 20px;">
+      <div>
+        <h2>Interactive Demo</h2>
+        <label><input type="checkbox" id="feature1"> Feature 1</label><br>
+        <label><input type="checkbox" id="feature2"> Feature 2</label><br>
+        <label><input type="checkbox" id="feature3"> Feature 3</label><br>
+      </div>
+      <img src="images/demo.jpg" alt="Demo Image" style="max-width: 300px; height: auto; border: 1px solid #ccc;">
     </section>
   </main>
 
