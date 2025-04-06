@@ -48,7 +48,7 @@ Main components -
 
    Motion Mechanism: Hand crank, pendulum, or shaker system
 
-**3. ⚙️ Energy Conditioning / Control**
+**2. ⚙️ Energy Conditioning / Control**
 
    DC-DC Boost Converter: Increases low voltage to LED-operating level
 
@@ -60,7 +60,7 @@ Main components -
 
    Potentiometer / Slider: Brightness control (matches your web demo UI)
 
-5. 💡 Light Output
+**3. 💡 Light Output**
 
    LED(s): High-efficiency white LEDs (low voltage, low current)
 
@@ -68,7 +68,7 @@ Main components -
 
    Mount / PCB: For clean LED mounting and heat management
 
-7. 🧱 Enclosure (Structure)
+**4. 🧱 Enclosure (Structure)**
 
    Waterproof Casing: Durable, possibly 3D-printed or plastic mold
 
@@ -82,9 +82,9 @@ Main components -
 
    Transparent Window: For LED visibility
 
-List specifications-
+**List specifications-**
 
-⚡ Power Generation
+**1.⚡ Power Generation**
    
    Magnesium/Zinc Plate	~1mm thick, 50x50mm plate (high surface area for reaction)
    
@@ -96,7 +96,7 @@ List specifications-
    
    Neodymium Magnet	Disc or cylinder, N42 grade or higher, 10–20mm diameter, strong pull
 
-⚙️ Energy Control & Regulation
+**2.⚙️ Energy Control & Regulation**
    
    Component	Suggested Specification
    
@@ -108,7 +108,7 @@ List specifications-
    
    Switch / Button	SPST (Single Pole Single Throw), 3–6V rating, toggle or momentary
 
-💡 Light Output
+**3.💡 Light Output**
    
    Component	Suggested Specification
    
@@ -117,15 +117,15 @@ List specifications-
    Diffuser/Lens	Frosted acrylic or polycarbonate, matte finish, diameter: 20–50mm
 
 
-🧱 Structure & Housing
+**4.🧱 Structure & Housing**
    
    Component	Suggested Specification
    
    Waterproof Enclosure	IP65 or higher, ABS/plastic casing, space for electrodes + circuits
 
-Tools required-
+**Tools required-**
 
-🔧 Basic Tools
+**1.🔧 Basic Tools**
    
    Screwdriver set – for enclosure assembly
    
@@ -135,7 +135,7 @@ Tools required-
    
    Utility knife / hobby knife – for trimming plastic, wires, or insulation
 
-🔌 Electrical Tools
+**2.🔌 Electrical Tools**
    
    Multimeter – to measure voltage, current, and resistance
    
@@ -148,7 +148,7 @@ Tools required-
    Heat shrink tubing or electrical tape – for insulating connections
 
 
-🧪 Prototyping & Assembly
+**3.🧪 Prototyping & Assembly**
    
    Breadboard (optional) – for prototyping before soldering
    
@@ -158,14 +158,13 @@ Tools required-
    
    Drill + bits – for creating holes in the enclosure for wires/buttons
 
-🖌️ Finishing Tools (Optional)
+**4.🖌️ Finishing Tools (Optional)**
    
    3D printer – for custom casing or mounts
    
    Sandpaper/file – to smooth enclosure edges
    
    Label maker or stickers – for labeling buttons or ports
-
 
 
 # Build Photos
