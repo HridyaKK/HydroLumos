@@ -6,14 +6,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f7f8;
-    color: #e0e0e0; /* Change text color to a light gray for better visibility */
+    color: #e0e0e0; 
     transition: background-color 0.3s, color 0.3s;
-    background-image: url('product.jpg'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the background fixed during scrolling */
-    background-position: center; /* Centers the image */
-    position: relative; /* Required for the pseudo-element */
+    background-image: url('product.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    position: relative; 
 }
 
 body::before {
@@ -23,13 +23,13 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-    z-index: -1; /* Places the overlay behind the content */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
 }
 
 header {
     background: #005f73;
-    color: #f5f5f5; /* Light gray for better visibility */
+    color: #f5f5f5; 
     padding: 2rem 1rem 1rem;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -38,7 +38,7 @@ header {
 
 #productName {
     font-size: 3rem;
-    color: #e0fbfc; /* Keep the product name text color */
+    color: #e0fbfc; 
     text-shadow: 0 0 10px #94d2bd, 0 0 20px #0a9396, 0 0 30px #005f73;
     animation: glow 2s infinite ease-in-out;
     font-weight: 700;
@@ -87,7 +87,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f5f5f5; /* Light gray for better visibility */
+    color: #f5f5f5; 
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
@@ -101,7 +101,7 @@ main {
     padding: 2rem 1.5rem;
     max-width: 960px;
     margin: auto;
-    color: #f5f5f5; /* Light gray for better visibility */
+    color: #f5f5f5; 
 }
 
 section {
@@ -110,7 +110,7 @@ section {
 
 button {
     background-color: #0a9396;
-    color: #ffffff; /* Keep button text white */
+    color: #ffffff; 
     border: none;
     padding: 0.6rem 1.2rem;
     font-size: 1rem;
@@ -137,7 +137,7 @@ footer {
     text-align: center;
     padding: 1.2rem 0;
     background: #005f73;
-    color: #f5f5f5; /* Light gray for better visibility */
+    color: #f5f5f5; 
     font-size: 0.95rem;
 }
 
@@ -152,15 +152,15 @@ body.dark-mode nav ul {
 }
 
 .card-box {
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for contrast */
-    color: #2e2e2e; /* Dark text inside card boxes */
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #2e2e2e; 
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Dark mode styling for the card boxes */
+
 body.dark-mode .card-box {
     background-color: #2a3f4a;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
