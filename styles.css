@@ -152,25 +152,43 @@ body.dark-mode nav ul {
 }
 
 body.dark-mode nav ul li a {
-    color: #add8e6;
+    color: #add8e6; 
+    text-decoration: none; 
 }
 
 body.dark-mode nav ul li a:hover {
     color: #14aeeb; 
+    text-decoration: none; 
 }
 
 body.dark-mode a {
     color: #58c6eb;
-}
-
-/* Only email links will be underlined in dark mode */
-body.dark-mode a[href^="mailto:"] {
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
 body.dark-mode a:hover {
     color: #87ceeb;
     text-decoration: underline;
+}
+
+/* Only underline email links in dark mode */
+body.dark-mode a[href^="mailto:"] {
+    color: #58c6eb; /* Light blue color for email links */
+    text-decoration: underline; /* Underline only email links */
+}
+
+body.dark-mode a[href^="mailto:"]:hover {
+    color: #87ceeb; /* Brighter blue for hover effect */
+    text-decoration: underline; /* Keep underline on hover */
+}
+
+.card-box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #2e2e2e; 
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 body.dark-mode .card-box {
