@@ -30,15 +30,22 @@ For Hardware:
 Main components-
 1. ⚡ Power Generation
    A. Saltwater Electrochemical Cell
+
    Anode: Magnesium, Zinc, or Aluminum plate
+
    Cathode: Copper or Graphite plate
+
    Electrolyte: Saltwater (NaCl solution)
+
    Cell Container: Non-corrosive chamber to hold electrolyte and electrodes
 
    B. Magnetic Induction System (Backup Power)
-      Coil: Copper wire (enameled)
-      Magnet: Neodymium magnet
-      Motion Mechanism: Hand crank, pendulum, or shaker system
+
+   Coil: Copper wire (enameled)
+
+   Magnet: Neodymium magnet
+
+   Motion Mechanism: Hand crank, pendulum, or shaker system
 
 3. ⚙️ Energy Conditioning / Control
    DC-DC Boost Converter: Increases low voltage to LED-operating level
