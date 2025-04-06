@@ -147,5 +147,13 @@ body.dark-mode .card-box {
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
 }
 
+body {
+    background-image: url('storyboard.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-position: center; /* Centers the image */
+    color: #fff; /* Adjust text color for better visibility */
+  }
 
  
