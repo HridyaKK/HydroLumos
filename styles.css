@@ -152,11 +152,11 @@ body.dark-mode nav ul {
 }
 
 body.dark-mode nav ul li a {
-    color: #add8e6; /* Light blue color for links in dark mode */
+    color: #add8e6;
 }
 
 body.dark-mode nav ul li a:hover {
-    color: #87ceeb; /* Brighter blue for hover effect */
+    color: #87ceeb; 
 }
 
 .card-box {
