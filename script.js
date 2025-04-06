@@ -9,9 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (lightDisplay.style.backgroundColor === 'yellow') {
             lightDisplay.style.backgroundColor = '#ddd';
             lightText.textContent = 'Light is OFF';
+            lightButton.textContent = 'Turn ON light'; // Change button text
         } else {
-            lightDisplay.style.backgroundColor = '#FFE65';
+            lightDisplay.style.backgroundColor = 'yellow';
             lightText.textContent = 'Light is ON';
+            lightButton.textContent = 'Turn OFF light'; // Change button text
         }
     }
 
