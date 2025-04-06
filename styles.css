@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #a0ebf5;
-    color: #e0e0e0; 
+    color: #8acbe9; 
     transition: background-color 0.3s, color 0.3s;
     background-image: url('product.jpg'); 
     background-size: cover; 
@@ -184,16 +184,15 @@ body.dark-mode a:hover {
     text-decoration: underline;
 }
 
-/* Only underline email links in dark mode */
+
 body.dark-mode a[href^="mailto:"] {
-    color: #58c6eb; /* Light blue color for email links */
-    text-decoration: underline; /* Underline only email links */
+    color: #58c6eb; 
+    text-decoration: underline; 
 }
 
 body.dark-mode a[href^="mailto:"]:hover {
-    color: #87ceeb; /* Brighter blue for hover effect */
-    text-decoration: underline; /* Keep underline on hover */
-}
+    color: #87ceeb; 
+    text-decoration: underline;
 
 .card-box {
     background-color: rgba(255, 255, 255, 0.8); 
