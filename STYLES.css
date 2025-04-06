@@ -131,36 +131,7 @@
     </ul>
   </nav>
 
-  <main>
-    <section id="about">
-      <h2>About Hydrolumos</h2>
-      <p>Innovative Saltwater & Magnet-Powered Emergency Lighting</p>
-    </section>
-
-    <section id="features">
-      <h2>Key Features</h2>
-      <ul>
-        <li>Reliable illumination without traditional power sources</li>
-        <li>Eco-friendly and sustainable design</li>
-        <li>Ideal for disaster relief and off-grid use</li>
-      </ul>
-    </section>
-
-    <section id="testimonials">
-            <h2>User Testimonials</h2>
-            <blockquote>
-                <p>"Hydrolumos provided us with light during the hurricane when nothing else worked." - Jane D.</p>
-            </blockquote>
-            <blockquote>
-                <p>"An essential tool for our camping trips. Highly recommend!" - Mark S.</p>
-            </blockquote>
-        </section>
-        <section id="demo">
-            <h2>Interactive Demo</h2>
-            <button id="lightButton">Turn On Light</button>
-            <div id="lightDisplay"></div>
-        </section>
-</main
+ 
 
   <script>
     function activateLight() {
