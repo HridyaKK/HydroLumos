@@ -48,5 +48,5 @@ document.addEventListener('DOMContentLoaded', function () {
         productName.style.animation = "glow 2s infinite ease-in-out";
     });
 
-    modeToggle.addEventListener("click", Theme);
+    modeToggle.addEventListener("click", toggleDarkMode);
 });
