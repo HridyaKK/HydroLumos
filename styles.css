@@ -159,6 +159,16 @@ body.dark-mode nav ul li a:hover {
     color: #14aeeb; 
 }
 
+body.dark-mode a {
+    color: #58c6eb;
+    text-decoration: underline; 
+}
+
+body.dark-mode a:hover {
+    color: #87ceeb;
+    text-decoration: underline;
+}
+
 
 body.dark-mode a[href^="mailto:"] {
     color: #58c6eb; 
