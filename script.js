@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function toggleDarkMode() {
         darkMode = !darkMode;
         document.body.classList.toggle("dark-mode", darkMode);
-        modeToggle.textContent = darkMode ? '☀️ Toggle Light Mode' : '🌙 Toggle Dark Mode';
+        modeToggle.textContent = darkMode ? '☀️  Light Mode' : '🌙  Dark Mode';
     }
 
     lightButton.addEventListener('click', toggleLight);
@@ -48,5 +48,5 @@ document.addEventListener('DOMContentLoaded', function () {
         productName.style.animation = "glow 2s infinite ease-in-out";
     });
 
-    modeToggle.addEventListener("click", toggleDarkMode);
+    modeToggle.addEventListener("click", Theme);
 });
