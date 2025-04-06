@@ -28,9 +28,9 @@ For Software:
 
 For Hardware:
 Main components-
-1. ⚡ Power Generation
+**1. ⚡ Power Generation**
    
-   A. Saltwater Electrochemical Cell
+  ** A. Saltwater Electrochemical Cell**
 
    Anode: Magnesium, Zinc, or Aluminum plate
 
@@ -40,7 +40,7 @@ Main components-
 
    Cell Container: Non-corrosive chamber to hold electrolyte and electrodes
 
-   B. Magnetic Induction System (Backup Power)
+   **B. Magnetic Induction System (Backup Power)**
 
    Coil: Copper wire (enameled)
 
@@ -48,7 +48,7 @@ Main components-
 
    Motion Mechanism: Hand crank, pendulum, or shaker system
 
-3. ⚙️ Energy Conditioning / Control
+**3. ⚙️ Energy Conditioning / Control**
 
    DC-DC Boost Converter: Increases low voltage to LED-operating level
 
