@@ -7,15 +7,16 @@ body {
     padding: 0;
     background-color: #f0f7f8;
     color: #2e2e2e;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 header {
     background: #005f73;
     color: #fff;
-    padding: 2rem 0 1rem;
+    padding: 2rem 1rem 1rem;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 #productName {
@@ -27,6 +28,23 @@ header {
     letter-spacing: 2px;
     margin: 0;
     cursor: pointer;
+}
+
+#modeToggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #0a9396;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#modeToggle:hover {
+    background-color: #007b83;
 }
 
 @keyframes glow {
@@ -103,4 +121,30 @@ footer {
     background: #005f73;
     color: #fff;
     font-size: 0.95rem;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-mode nav ul {
+    background: #264653;
+}
+
+body.dark-mode nav ul li a {
+    color: #e0fbfc;
+}
+
+body.dark-mode header {
+    background: #222;
+}
+
+body.dark-mode footer {
+    background: #111;
+}
+
+body.dark-mode #lightDisplay {
+    background: #444;
 }
