@@ -61,6 +61,7 @@ Main components-
    Transparent Window: For LED visibility
 
 List specifications-
+
 ⚡ Power Generation
    Magnesium/Zinc Plate	~1mm thick, 50x50mm plate (high surface area for reaction)
    Copper/Graphite Plate	Same size as anode; good conductivity and corrosion resistance
@@ -85,6 +86,7 @@ List specifications-
    Waterproof Enclosure	IP65 or higher, ABS/plastic casing, space for electrodes + circuits
 
 Tools required-
+
 🔧 Basic Tools
    Screwdriver set – for enclosure assembly
    Wire cutters/strippers – for preparing electrical connections
@@ -114,10 +116,14 @@ Tools required-
 For Software:
 
 # Screenshots (Add at least 3)
+HTML CODE-
+
+CSS CODE-
+
+JAVASCRIPT CODE-
 
 
-
-
+For Hardware:
 # Build Photos
 Demo Image-
 ![Hydrolumos](https://github.com/user-attachments/assets/c150345c-d5be-41ff-81b2-448d1b90c6a9)
