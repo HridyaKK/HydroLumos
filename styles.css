@@ -161,7 +161,7 @@ body.dark-mode nav ul li a:hover {
 
 body.dark-mode a {
     color: #58c6eb;
-    text-decoration: underline; 
+    text-decoration: none; 
 }
 
 body.dark-mode a:hover {
