@@ -8,7 +8,7 @@
         #lightDisplay {
             width: 100px;
             height: 100px;
-            transition: background-color 0.3s, opacity 0.3s; /* Smooth transition */
+            transition: background-color 0.3s, opacity 0.3s;  */
         }
     </style>
 </head>
