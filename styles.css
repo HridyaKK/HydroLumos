@@ -5,8 +5,8 @@ body {
     line-height: 1.7;
     margin: 0;
     padding: 0;
-    background-color: #010e0f;
-    color: #8acbe9; 
+    background-color: #8ccbcf;
+    color: #000; 
     transition: background-color 0.3s, color 0.3s;
     background-image: url('product.jpg'); 
     background-size: cover; 
