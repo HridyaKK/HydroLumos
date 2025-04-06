@@ -168,13 +168,15 @@ Tools required-
 
 
 
-For Hardware:
 # Build Photos
 Demo Image-
 ![Hydrolumos](https://github.com/user-attachments/assets/c150345c-d5be-41ff-81b2-448d1b90c6a9)
 
 ## Team Contributions
-- Arshiya Sulfikkar: html code
-- Hridya K K : javascript code
-- Hena Suvarnan: css code
+
+- **Angela Elsa John** – Prepared the README documentation
+- **Arshiya Sulfikkar** – Developed the HTML structure and content
+- **Hena Suvarnan** – Designed and styled the website using CSS
+- **Hridya K K** – Implemented interactivity and functionality using JavaScript
+
 
