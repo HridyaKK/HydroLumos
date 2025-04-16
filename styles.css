@@ -194,6 +194,7 @@ body.dark-mode a[href^="mailto:"] {
 body.dark-mode a[href^="mailto:"]:hover {
     color: #87ceeb; 
     text-decoration: underline;
+}
 
 .card-box {
     background-color: rgba(255, 255, 255, 0.8); 
@@ -213,6 +214,3 @@ body.dark-mode .card-box {
 body.dark-mode #lightDisplay {
     background-color: #444;
 }
-
-
-
